@@ -69,5 +69,42 @@ I am a product-driven Full-Stack Software Engineer and Team Lead with over 3 yea
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=rect&color=0078D4&height=20&section=footer" width="100%" />
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+</p>
+
+<table align="center" border="0">
+  <tr>
+    <td align="center" width="300">
+      <img src="https://komarev.com/ghpvc/?username=Karamkottish&label=PROFILE%20VIEWS&color=0078D4&style=for-the-badge" alt="Visitor Counter" />
+      <br />
+      <sub><b>Real-time Engagement Tracking</b></sub>
+    </td>
+    <td align="center" width="300">
+      <img src="https://img.shields.io/badge/LAST%20UPDATE-JAN%202026-32CD32?style=for-the-badge" />
+      <br />
+      <sub><b>System Status: Operational</b></sub>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/karam-kottish/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:Karamkottish@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://karamkottish.github.io/Karam_Portiofolio/">
+    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <br />
+  <b>Designed & Engineered by Karam Kottish</b><br />
+  <i>Full-Stack Lead & Product Strategist • Riyadh, SA</i>
+  <br />
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="35%">
 </p>
