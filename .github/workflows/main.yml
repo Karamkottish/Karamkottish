@@ -8,14 +8,20 @@ on:
 permissions:
   contents: write
 
+# Prevent overlapping runs
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 60 # Safety timeout
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: main # FIX 1: Forces the runner to be on the main branch, not a detached state
+          ref: main
 
       - name: Generate 3D Contribution Graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
@@ -25,8 +31,8 @@ jobs:
 
       - name: Commit & Push
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A .
           
           # Check if there are changes to commit
@@ -35,11 +41,9 @@ jobs:
             exit 0
           fi
           
-          git commit -m "Generated 2027 Analytics"
+          git commit -m "Generated 3D Contribution Graph"
           
-          # FIX 2: The vital sync step
-          # We pull with rebase to put our new commit ON TOP of remote changes
+          # Pull with rebase to handle concurrent updates
           git pull --rebase origin main
           
-          # FIX 3: Push specifically to main
           git push origin main
