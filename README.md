@@ -43,6 +43,11 @@ I am a product-driven Full-Stack Software Engineer and Team Lead with over 3 yea
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Karamkottish&theme=tokyonight&hide_border=true&area=true" width="100%" />
 </p>
 
+### 🧊 3D Contribution Graph
+<p align="center">
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%" />
+</p>
+
 ---
 
 ### 📊 Strategic Insights
