@@ -168,10 +168,6 @@ flowchart LR
   <img src="https://streak-stats.demolab.com?user=Karamkottish&theme=tokyonight&hide_border=true" width="70%" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Karamkottish&theme=tokyo-night&hide_border=true&area=true" width="100%" />
-</p>
-
 ### 🧊 3D Contribution Graph
 
 <p align="center">
